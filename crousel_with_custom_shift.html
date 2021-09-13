@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <style>
+        /* side arrow crowsel */
+        
+        .carousel-wrapper {
+            width: 1200px;
+            margin: auto;
+            position: relative;
+            text-align: center;
+            font-family: sans-serif;
+        }
+        
+        #c2 .owl-nav {
+            overflow: hidden;
+            height: 0px;
+        }
+        
+        .owl-theme .owl-dots .owl-dot.active span,
+        .owl-theme .owl-dots .owl-dot:hover span {
+            background: #5110e9;
+        }
+        
+        #c2 .item {
+            text-align: center;
+        }
+        
+        #c2 .nav-button {
+            height: 50px;
+            width: 50px;
+            cursor: pointer;
+            position: absolute;
+            top: 110px !important;
+        }
+        
+        #c2 .owl-prev.disabled,
+        #c2 .owl-next.disabled {
+            pointer-events: none;
+            opacity: 0.25;
+        }
+        
+        #c2 .owl-prev {
+            left: 5px;
+        }
+        
+        #c2 .owl-next {
+            right: 5px;
+        }
+        
+        #c2 .owl-nav [class*=owl-] {
+            color: black;
+            font-size: 30px;
+            background: white;
+            border-radius: 13px;
+        }
+        
+        #c2 .prev-carousel:hover {
+            background-position: 0px -53px;
+        }
+        
+        #c2 .next-carousel:hover {
+            background-position: -24px -53px;
+        }
+        /* side arrow crousel ends */
+        
+        .one {
+            background-color: cadetblue;
+            display: inline;
+        }
+        
+        .two {
+            background-color: cyan;
+            display: inline;
+        }
+        
+        .one span {
+            background-color: red;
+            display: list-item;
+        }
+        
+        .three {
+            display: inline-block;
+        }
+    </style>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="dist/assets/owl.theme.default.css">
+</head>
+
+<body>
+    <!-- border -->
+    <div class="border border-success ml-4 mt-4" style="width:50% ; height:400px;">
+        <h2 class="align-baseline">Something</h2>
+    </div>
+    <!-- border end -->
+
+    <div class="container d-flex">
+        <div class="align-top">
+            <h2>Lorem, ipsum.</h2>
+        </div>
+        <div class="align-middle">
+            <h2>Lorem ipsum dolor sit.</h2>
+        </div>
+        <div class="align-bottom">
+            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+        </div>
+    </div>
+
+
+
+
+    <!-- table -->
+
+    <table class="table" style="width: 50%;margin: left 20px;margin-top: 80px;">
+        <thead>
+            <tr class="border border-success">
+                <th class="align-top" scope="col">#</th>
+                <th class="align-middle" scope="col">First</th>
+                <th class="align-bottom" scope="col">Last</th>
+                <th scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- table ends -->
+
+    <div class="container">
+        <p class="one">Lorem ipsum dolor <span> LOREM</span> sit
+            <div class="three">
+                <h3><b>This is another div inside paragraph</b></h3>
+            </div> amet consectetur adipisicing elit. Temporibus, dolorem voluptate harum nostrum impedit officiis error adipisci ipsa ut eos!</p>
+        <p class="two">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa velit eaque minima.</p>
+    </div>
+
+
+
+
+    <!-- from here 2nd owl crousel -->
+    <div class="carousel-wrapper">
+
+        <div class="owl-carousel owl-theme " id="c2">
+
+            <div class="item">
+                <img src="images/p_i_1.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img src="images/p_i_2.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img src="images/p_i_3.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img src="images/p_i_4.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img src="images/2p_i_1.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img src="images/2p_i_2.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img src="images/2p_i_3.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img src="images/2p_i_1.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img src="images/3p_i_1.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img src="images/3p_i_2.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img src="images/3p_i_3.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img src="images/3p_i_4.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- from here 2nd owl crousel ends -->
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="dist/owl.carousel.min.js"></script>
+    <script>
+        $('#c2').owlCarousel({
+            margin: 15,
+            nav: true,
+            navText: ["<div class='nav-button owl-prev rounded-circle'>‹</div>", "<div class='nav-button owl-next rounded-circle'>›</div>"],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
